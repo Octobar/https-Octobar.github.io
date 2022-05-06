@@ -1,0 +1,163 @@
+<html>
+<style>
+    body {
+        background-image: url('dhome.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    
+    .box-shadow {
+        font-family: cursive, sans-serif;
+        background-color: rgba(255, 255, 255, 0.212);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px 23px #ffffff96;
+        margin: auto;
+        width: 50%;
+        display: block;
+        position: fixed;
+        bottom: 240px;
+        right: 340px;
+    }
+    
+    .box-shadow {
+        text-align: center;
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    .mainMenubackground {
+        background-color: #e654a4a6;
+        width: 50%;
+        float: right;
+        clear: both;
+        border-radius: 7px;
+    }
+    
+    .mainMenu {
+        font-family: cursive, sans-serif;
+        font-size: 7px;
+        /* 10px is too small*/
+    }
+    
+    .mainMenu li {
+        float: right;
+    }
+    
+    .mainMenu ul li {
+        float: none;
+    }
+    
+    .mainMenu li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        padding: 5px 38px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    .mainMenu li:hover>a {
+        background-color: #c7008bb7;
+        border-radius: 7px;
+    }
+    
+    .mainMenu li ul {
+        display: none;
+        position: absolute;
+        background-color: #f700ff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.767);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff18718f), color-stop(100%, #fa8d116b));
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+    }
+    
+    .dropdown-content a {
+        display: block;
+        color: white;
+        padding: 8px 10px;
+        text-decoration: none;
+        text-align: left;
+        font-size: 14px;
+        border: 0.5px solid rgba(255, 255, 255, 0.575);
+        border-top: 0 none;
+        border-radius: 7px;
+    }
+    
+    .submenu {
+        left: 100%;
+        top: 0;
+        position: absolute;
+    }
+    
+    .mainMenu li:hover>ul {
+        /* when list items are hovered over, do this to lists contained within them... */
+        display: block;
+    }
+</style>
+
+<body>
+
+    <div class="mainMenubackground">
+        <div class="pageWrapper">
+            <ul class="mainMenu">
+                <li class="dropdown"> <a href="index.html" title="Home - CRCE" rel="home" class="dropbtn">Profile</a>
+
+                    <ul class="dropdown-content">
+                        <li><a href="غير مستخدم.html">Information</a></li>
+                        <li><a href="غير مستخدم.html">Edit Profile</a></li>
+                        <li><a href="غير مستخدم.html">View History</a></li>
+                        <li><a href="غير مستخدم.html">Pins</a></li>
+                        <li><a href="غير مستخدم.html">BookMarks</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"> <a href="sentimental.html" class="dropbtn">Sentimental Analysis</a>
+                    <ul class="dropdown-content">
+                        <li><a href="sentanalysis.html">New</a></li>
+                        <li><a href="غير مستخدم.html">Recent</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"> <a href="colorextract.html" class="dropbtn">Color-Extraction</a>
+                    <ul class="dropdown-content">
+                        <li><a href="colorextract.html">New Extraction</a></li>
+                        <li><a href="غير مستخدم.html">Recent</a></li>
+                        <li><a href="غير مستخدم.html">Palet Setting</a></li>
+
+
+                    </ul>
+                </li>
+                <li class="dropdown"> <a href="home.html" class="dropbtn">Home</a>
+                    <ul class="dropdown-content">
+                        <li><a href="غير مستخدم.html">Davi-Tutorial</a></li>
+                        <li><a href="غير مستخدمhtml">Suggest</a></li>
+
+
+                    </ul>
+                </li>
+
+
+        </div>
+    </div>
+
+    <div class="box-shadow">
+        <p>
+            Hello there, I'm Davi-Art nice to meet you..!
+            <br /> I'm here to assist you in your art journy, if you are a digital artist, mandela, portrait or any artist..I can help you
+        </p>
+        <p>
+            You can use the color extraction feature or the sentimental analysis, for now <br /> I'm learning day by day, hope I glow up fast
+        </p>
+    </div>
+</body>
+
+</html>
